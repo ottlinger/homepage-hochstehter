@@ -1,0 +1,9 @@
+name: hoch-steht-er
+services:
+    php-apache:
+        user: "1000:1000"
+        image: php:8.4.18-apache
+        ports:
+            - "8888:80"
+        volumes:
+            - .:/var/www/html:z
