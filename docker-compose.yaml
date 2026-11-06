@@ -1,4 +1,4 @@
-name: hoch-steht-er
+name: hochstehter
 services:
     php-apache:
         user: "1000:1000"
